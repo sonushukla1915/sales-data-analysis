@@ -61,3 +61,106 @@ sales-data-analysis/
     ├── quantity_heatmap.png
     ├── top_products.png
     └── top_customers.png
+🔍 SQL Analysis
+The following SQL analyses were performed:
+- Total number of sales records
+- Total revenue
+- Total quantity sold
+- Average order value
+- Product-wise revenue
+- City-wise revenue
+- Category-wise revenue
+- Customer-wise revenue
+- Product-wise quantity analysis
+Example SQL Query
+SELECT
+    product,
+    SUM(quantity) AS total_quantity,
+    SUM(quantity * price) AS total_revenue
+FROM sales
+GROUP BY product
+ORDER BY total_revenue DESC;
+
+🐍 Python Analysis
+Python and Pandas were used for:
+- Loading the CSV dataset
+- Checking data information
+- Checking missing values
+- Checking duplicate records
+- Creating the revenue column
+- Group-by analysis
+- Product analysis
+- City analysis
+- Category analysis
+- Customer analysis
+Revenue Calculation
+df["revenue"] = df["quantity"] * df["price"]
+
+
+📊 Visualizations
+Product-wise Revenue
+ 
+City-wise Revenue
+ 
+Category-wise Revenue
+ 
+🔥 Revenue Heatmap
+The revenue heatmap shows the relationship between cities and product categories.
+ 
+🔥 Quantity Heatmap
+The quantity heatmap shows the number of products sold across different cities and categories.
+ 
+🏆 Top Products
+ 
+👤 Top Customers
+ 
+💡 Business Insights
+The project can be used to identify:
+- Highest revenue-generating product
+- Highest revenue-generating city
+- Highest revenue-generating category
+- Highest-value customer
+- Total revenue generated
+- Total quantity sold
+- Average order value
+- Sales patterns across cities and categories
+Note: The exact values are calculated directly from the project dataset.
+
+📈 Project Workflow
+Raw Sales Data
+      ↓
+MySQL Database
+      ↓
+SQL Analysis
+      ↓
+CSV Dataset
+      ↓
+Python + Pandas
+      ↓
+Data Cleaning & EDA
+      ↓
+Matplotlib + Seaborn
+      ↓
+Charts & Heatmaps
+      ↓
+Business Insights
+
+🚀 Skills Demonstrated
+- SQL
+- MySQL
+- Python
+- Pandas
+- Exploratory Data Analysis (EDA)
+- Data Cleaning
+- Data Visualization
+- Matplotlib
+- Seaborn
+- Heatmap Analysis
+- Business Insights
+- GitHub
+👨‍💻 Author
+Sonu Shukla
+BCA Student | Aspiring Data Analyst
+⭐ Project Status
+Completed
+This is my first portfolio project in Data Analytics, created to demonstrate practical skills in SQL, Python and data visualization.
