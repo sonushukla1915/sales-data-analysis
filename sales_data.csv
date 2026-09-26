@@ -1,0 +1,16 @@
+sale_id,customer_name,city,product,category,quantity,price,sale_date
+1,Rahul,Delhi,Laptop,Electronics,1,55000.00,2026-01-05
+2,Aman,Meerut,Mouse,Electronics,2,800.00,2026-01-07
+3,Priya,Delhi,Keyboard,Electronics,1,1500.00,2026-01-10
+4,Neha,Mumbai,Chair,Furniture,2,4500.00,2026-01-12
+5,Rohit,Meerut,Laptop,Electronics,1,62000.00,2026-01-15
+6,Anjali,Lucknow,Table,Furniture,1,7000.00,2026-01-18
+7,Vikas,Delhi,Mouse,Electronics,3,750.00,2026-01-20
+8,Pooja,Mumbai,Laptop,Electronics,2,58000.00,2026-01-22
+9,Karan,Lucknow,Chair,Furniture,4,4000.00,2026-01-25
+10,Simran,Delhi,Table,Furniture,1,6500.00,2026-01-28
+11,Arjun,Meerut,Keyboard,Electronics,2,1800.00,2026-02-02
+12,Sneha,Mumbai,Mouse,Electronics,5,700.00,2026-02-05
+13,Amit,Delhi,Chair,Furniture,2,4200.00,2026-02-08
+14,Riya,Lucknow,Laptop,Electronics,1,60000.00,2026-02-12
+15,Sahil,Meerut,Table,Furniture,2,6800.00,2026-02-15
